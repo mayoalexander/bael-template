@@ -12,7 +12,7 @@
       light
       class="accent"
     >
-      <mobile-drawer />
+      <!-- <mobile-drawer /> -->
     </v-navigation-drawer>
     <v-container
       id="headerContainer"
@@ -28,12 +28,12 @@
     >
       <v-layout>
         <v-flex xs12>
-          <contact-bar />
+          <!-- <contact-bar /> -->
         </v-flex>
       </v-layout>
       <v-layout>
         <v-flex xs12>
-          <banner-bar />
+          <!-- <banner-bar /> -->
         </v-flex>
       </v-layout>
     </v-container>
@@ -42,8 +42,7 @@
       :style="{ marginTop: headerHeight + 'px', marginBottom: footerHeight + 131 + 'px' }"
       fluid
     >
-      <prompt-screen-overlay />
-      <!-- <nuxt/> -->
+      <!-- <prompt-screen-overlay /> -->
       <router-view />
     </v-container>
     <v-container
@@ -58,30 +57,50 @@
       pb-0
       mt-0
     >
-      <footer-content />
+      <!-- <footer-content /> -->
     </v-container>
   </v-app>
 </template>
 
 <script>
 import request from '@/request.js'
-import ContactBar from '@/components/ContactBar.vue'
-import FooterContent from '@/components/FooterContent.vue'
-import BannerBar from '@/components/BannerBar.vue'
-import MobileDrawer from '@/components/MobileDrawer.vue'
-// import MobileLogo from '@/components/MobileLogo.vue'
-import PromptScreenOverlay from '@/components/PromptScreenOverlay.vue'
-
+// import ContactBar from '@/components/ContactBar.vue'
+// import FooterContent from '@/components/FooterContent.vue'
+// import BannerBar from '@/components/BannerBar.vue'
+// import MobileDrawer from '@/components/MobileDrawer.vue'
+// // import MobileLogo from '@/components/MobileLogo.vue'
+// import PromptScreenOverlay from '@/components/PromptScreenOverlay.vue'
+import axios from 'axios'
 export default {
 
   name: 'App',
   components: {
-    ContactBar,
-    FooterContent,
-    BannerBar,
-    MobileDrawer,
+    // ContactBar,
+    // FooterContent,
+    // BannerBar,
+    // MobileDrawer,
     // MobileLogo,
-    PromptScreenOverlay
+    // PromptScreenOverlay
+  },
+  head () {
+    return {
+      title: this.post.title,
+      meta: [
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:site', content: '@ALEXANDER' },
+        { name: 'twitter:title', content: 'ALEXANDER' },
+        {
+          name: 'twitter:description',
+          content:
+            'Nuxt.js lets you handle custom headers for your app with vue-meta'
+        },
+        {
+          name: 'twitter:image',
+          content: 'https://avatars0.githubusercontent.com/u/23360933?v=3'
+        },
+        { name: 'twitter:image:alt', content: 'Nuxt.js logo' }
+      ]
+    }
   },
   data () {
     return {
@@ -93,14 +112,17 @@ export default {
       footerHeight: 0
     }
   },
-
+  computed: {
+    siteTitle () {
+      return 'This is the inspire page'
+    }
+  },
+  async asyncData ({ params }) {
+    // We can use async/await ES6 feature
+    const { data } = await axios.get(`https://jsonplaceholder.typicode.com/posts/100`)
+    return { post: data }
+  },
   mounted () {
-    console.log({
-      env: process.env,
-      baseURL: process.env.TRAVIS_HOWLER_API,
-      TRAVIS_SUPPORT_LINK: process.env.GOOGLE_ANALYTICS_TOKEN
-    })
-    this.getCurrentBranch()
     this.getPostStatuses()
     this.getContent()
 
@@ -125,21 +147,6 @@ export default {
   },
 
   methods: {
-    async getCurrentBranch () {
-      await this.$store.dispatch('fetchBranches').then(() => {
-        this.$store.dispatch('determineClosestBranch').then(() => {
-          setTimeout(function () {
-            console.log('User branch determined to be ' + this.$store.getters.getCurrentBranch.region)
-          }.bind(this), 7000)
-        }).catch(function (error) {
-          console.log('Something went wrong while determing closest branch')
-          console.log(error)
-        })
-      }).catch(function (error) {
-        console.log('Something went wrong while fetching branches: ')
-        console.log(error)
-      })
-    },
     async getPostTypes () {
       var result = []
       await request.getPostTypes().then((res) => {
@@ -180,10 +187,10 @@ export default {
       return result
     },
     headHeight () {
-      this.headerHeight = this.$refs.headerContainer.clientHeight
+      // this.headerHeight = this.$refs.headerContainer.clientHeight
     },
     footHeight () {
-      this.footerHeight = this.$refs.footerContainer.firstChild.clientHeight
+      // this.footerHeight = this.$refs.footerContainer.firstChild.clientHeight
     },
     toggleDrawer: function () {
       this.drawer = !this.drawer

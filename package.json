@@ -21,11 +21,14 @@
     "bf-solid": "^2.10.6",
     "fuse.js": "^3.2.1",
     "hoek": "^4.2.1",
+    "js-cookie": "^2.2.0",
     "netlify-lambda": "^1.4.3",
     "node-sass": "^4.9.2",
     "nuxt": "^2.0.0",
     "sass-loader": "^7.0.3",
-    "vue-moment": "^4.0.0"
+    "vue-moment": "^4.0.0",
+    "vuetify": "^1.5.12",
+    "youtube-player": "^5.5.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
