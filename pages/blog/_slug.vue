@@ -10,9 +10,9 @@
             <ul class="list-unstyled xs-flex xs-flex-align-center">
              <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory"><div class="tag fill-gray-darker xs-border">
   <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
-</div></li> 
+</div></li>
 <li class="xs-inline-block">{{ date }}</li>
-              </ul> 
+              </ul>
              </div>
           </no-ssr>
           <div class="xs-py3 post-content text-gray-lighter">
@@ -34,7 +34,7 @@ export default {
   async asyncData({ params, app, payload, route, store }) {
     let post = await import("~/content/blog/posts/" + params.slug + ".json");
     console.log(post);
-   
+
    await store.commit("SET_TITLE", post.title);
      await store.commit("SET_THUMB", post.thumbnail);
      await store.commit("SET_CRUMB", 'Blog');
@@ -50,7 +50,7 @@ export default {
       title: this.title + " | " + this.$store.state.siteInfo.sitename
     };
   },
-  
+
   data() {
     return {};
   },
@@ -61,8 +61,8 @@ export default {
       console.log("slug resize");
     },
     navHeight() {
-      var height = document.getElementById("navbar").clientHeight;
-      this.$store.commit("SET_NAVHEIGHT", height);
+      // var height = document.getElementById("navbar").clientHeight;
+      this.$store.commit("SET_NAVHEIGHT", 80);
     }
   },
   updated() {
