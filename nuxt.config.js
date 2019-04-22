@@ -1,7 +1,9 @@
 var siteInfo = require('./content/setup/info.json');
+import theme from './assets/theme.js'
 console.log(siteInfo)
 var glob = require('glob');
 var path = require('path');
+
 
 // Enhance Nuxt's generate process by gathering all content files from Netifly CMS
 // automatically and match it to the path of your Nuxt routes.
@@ -11,8 +13,7 @@ var dynamicRoutes = getDynamicPaths({
   '/page': 'page/posts/*.json',
   '/category': 'categories/posts/*.json',
   '/tagged': 'tags/posts/*.json'
-});
-
+})
 
 module.exports = {
   mode: "universal",
@@ -44,20 +45,26 @@ env: {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
-  modules: ['@nuxtjs/markdownit', '@nuxtjs/pwa','@nuxtjs/axios'],
+  modules: [
+    '@nuxtjs/markdownit',
+    '@nuxtjs/pwa',
+    '@nuxtjs/axios'//,
+    // '@nuxtjs/vuetify'
+  ],
   markdownit: {
     injected: true,
     preset: 'default',
     breaks: true,
     html: true
-
-
   },
   manifest: {
     name: siteInfo.sitename,
     short_name: siteInfo.sitename,
     description: siteInfo.sitedescription,
     lang: 'en'
+  },
+  vuetify: {
+     theme: theme
   },
   workbox: {
     fetch: true,

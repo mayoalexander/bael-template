@@ -1,4 +1,4 @@
-import branding from '@/assets/brandai.json'
+import branding from '../assets/brandai.json'
 
 export default {
   primary: branding.lookup.colors.copper.value,

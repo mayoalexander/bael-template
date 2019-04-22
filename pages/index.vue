@@ -106,18 +106,18 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'getCurrentBranch'
+      // 'getCurrentBranch'
     ]),
     currentBranchContent () {
       if (process.client) {
-        return (this.getCurrentBranch.slug
-          ? this.filterByCurrentBranch(this.posts)
-          : this.posts)
+        // return (this.getCurrentBranch.slug
+        //   ? this.filterByCurrentBranch(this.posts)
+        //   : this.posts)
       }
     }
   },
   mounted: function () {
-    this.getContent()
+    // this.getContent()
   },
   methods: {
     async getContent () {

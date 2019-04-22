@@ -17,6 +17,7 @@
     "@nuxtjs/axios": "^5.3.1",
     "@nuxtjs/markdownit": "github:syffs/nuxtv2-markdownit",
     "@nuxtjs/pwa": "^2.0.8",
+    "@nuxtjs/vuetify": "^0.5.5",
     "@sendgrid/client": "^6.3.0",
     "bf-solid": "^2.10.6",
     "fuse.js": "^3.2.1",
