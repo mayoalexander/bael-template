@@ -91,7 +91,7 @@ middleware: ['title']
   plugins: ['~/plugins/vuefuse',{
     src: "~/plugins/moment",
     ssr: false
-  }],
+  }, '~/plugins/vuetify'],
   /*
   ** Build configuration
   */
