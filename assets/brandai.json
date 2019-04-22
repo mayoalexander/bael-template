@@ -1,0 +1,757 @@
+{
+  "lookup": {
+    "colors": {
+      "copper": {
+        "name": "copper",
+        "value": "#a96726"
+      },
+      "black": {
+        "name": "black",
+        "value": "#1f2d3d"
+      },
+      "darkGrey": {
+        "name": "dark-grey",
+        "value": "#323330"
+      },
+      "lightGrey": {
+        "name": "light-grey",
+        "value": "#d3dce6"
+      },
+      "red": {
+        "name": "red",
+        "value": "#983238"
+      },
+      "navy": {
+        "name": "navy",
+        "value": "#17394c"
+      },
+      "gold": {
+        "name": "gold",
+        "value": "#f1ae2a"
+      },
+      "copper50": {
+        "name": "copper-50",
+        "value": "#f5ede5"
+      },
+      "copper100": {
+        "name": "copper-100",
+        "value": "#e5d1be"
+      },
+      "copper200": {
+        "name": "copper-200",
+        "value": "#d4b393"
+      },
+      "copper300": {
+        "name": "copper-300",
+        "value": "#c39567"
+      },
+      "copper400": {
+        "name": "copper-400",
+        "value": "#b67e47"
+      },
+      "copper500": {
+        "name": "copper-500",
+        "value": "#a96726"
+      },
+      "copper600": {
+        "name": "copper-600",
+        "value": "#a25f22"
+      },
+      "copper700": {
+        "name": "copper-700",
+        "value": "#98541c"
+      },
+      "copper800": {
+        "name": "copper-800",
+        "value": "#8f4a17"
+      },
+      "copper900": {
+        "name": "copper-900",
+        "value": "#7e390d"
+      },
+      "copperA100": {
+        "name": "copper-A100",
+        "value": "#ffcbb0"
+      },
+      "copperA200": {
+        "name": "copper-A200",
+        "value": "#ffa97d"
+      },
+      "copperA400": {
+        "name": "copper-A400",
+        "value": "#ff874a"
+      },
+      "copperA700": {
+        "name": "copper-A700",
+        "value": "#ff7630"
+      },
+      "navy50": {
+        "name": "navy-50",
+        "value": "#e3e7ea"
+      },
+      "navy100": {
+        "name": "navy-100",
+        "value": "#b9c4c9"
+      },
+      "navy200": {
+        "name": "navy-200",
+        "value": "#8b9ca6"
+      },
+      "navy300": {
+        "name": "navy-300",
+        "value": "#5d7482"
+      },
+      "navy400": {
+        "name": "navy-400",
+        "value": "#3a5767"
+      },
+      "navy500": {
+        "name": "navy-500",
+        "value": "#17394c"
+      },
+      "navy600": {
+        "name": "navy-600",
+        "value": "#143345"
+      },
+      "navy700": {
+        "name": "navy-700",
+        "value": "#112c3c"
+      },
+      "navy800": {
+        "name": "navy-800",
+        "value": "#0d2433"
+      },
+      "navy900": {
+        "name": "navy-900",
+        "value": "#071724"
+      },
+      "navyA100": {
+        "name": "navy-A100",
+        "value": "#61b0ff"
+      },
+      "navyA200": {
+        "name": "navy-A200",
+        "value": "#2e96ff"
+      },
+      "navyA400": {
+        "name": "navy-A400",
+        "value": "#007dfa"
+      },
+      "navyA700": {
+        "name": "navy-A700",
+        "value": "#0070e0"
+      },
+      "red50": {
+        "name": "red-50",
+        "value": "#f3e6e7"
+      },
+      "red100": {
+        "name": "red-100",
+        "value": "#e0c2c3"
+      },
+      "red200": {
+        "name": "red-200",
+        "value": "#cc999c"
+      },
+      "red300": {
+        "name": "red-300",
+        "value": "#b77074"
+      },
+      "red400": {
+        "name": "red-400",
+        "value": "#a75156"
+      },
+      "red500": {
+        "name": "red-500",
+        "value": "#983238"
+      },
+      "red600": {
+        "name": "red-600",
+        "value": "#902d32"
+      },
+      "red700": {
+        "name": "red-700",
+        "value": "#85262b"
+      },
+      "red800": {
+        "name": "red-800",
+        "value": "#7b1f24"
+      },
+      "red900": {
+        "name": "red-900",
+        "value": "#6a1317"
+      },
+      "redA100": {
+        "name": "red-A100",
+        "value": "#ffa1a4"
+      },
+      "redA200": {
+        "name": "red-A200",
+        "value": "#ff6e73"
+      },
+      "redA400": {
+        "name": "red-A400",
+        "value": "#ff3b42"
+      },
+      "redA700": {
+        "name": "red-A700",
+        "value": "#ff2129"
+      },
+      "yellow50": {
+        "name": "yellow-50",
+        "value": "#fdf5e5"
+      },
+      "yellow100": {
+        "name": "yellow-100",
+        "value": "#fbe7bf"
+      },
+      "yellow200": {
+        "name": "yellow-200",
+        "value": "#f8d795"
+      },
+      "yellow300": {
+        "name": "yellow-300",
+        "value": "#f5c66a"
+      },
+      "yellow400": {
+        "name": "yellow-400",
+        "value": "#f3ba4a"
+      },
+      "yellow500": {
+        "name": "yellow-500",
+        "value": "#f1ae2a"
+      },
+      "yellow600": {
+        "name": "yellow-600",
+        "value": "#efa725"
+      },
+      "yellow700": {
+        "name": "yellow-700",
+        "value": "#ed9d1f"
+      },
+      "yellow800": {
+        "name": "yellow-800",
+        "value": "#eb9419"
+      },
+      "yellow900": {
+        "name": "yellow-900",
+        "value": "#e7840f"
+      },
+      "yellowA100": {
+        "name": "yellow-A100",
+        "value": "#ffffff"
+      },
+      "yellowA200": {
+        "name": "yellow-A200",
+        "value": "#ffefe0"
+      },
+      "yellowA400": {
+        "name": "yellow-A400",
+        "value": "#ffd6ad"
+      },
+      "yellowA700": {
+        "name": "yellow-A700",
+        "value": "#ffca93"
+      },
+      "normalText": {
+        "name": "Normal Text",
+        "value": "#222222"
+      },
+      "mildText": {
+        "name": "Mild Text",
+        "value": "#555555"
+      },
+      "subtleText": {
+        "name": "Subtle Text",
+        "value": "#999999"
+      },
+      "linkColor": {
+        "name": "Link Color",
+        "value": "#0278ae"
+      },
+      "secondary": {
+        "name": "Secondary",
+        "value": "#7d7d7d"
+      },
+      "accent": {
+        "name": "Accent",
+        "value": "#ffffff"
+      },
+      "error": {
+        "name": "Error",
+        "value": "#983238"
+      },
+      "info": {
+        "name": "Info",
+        "value": "#ffffff"
+      },
+      "success": {
+        "name": "Success",
+        "value": "#fafafa"
+      },
+      "warning": {
+        "name": "Warning",
+        "value": "#f1ae2a"
+      }
+    },
+    "fonts": {
+      "logoFont": {
+        "name": "Logo Font",
+        "family": "FrizQuadrataOS Bold",
+        "variants": [
+          {
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          }
+        ]
+      },
+      "webSansSerifFont": {
+        "name": "Web Sans Serif Font",
+        "family": "Raleway",
+        "variants": [
+          {
+            "fontStyle": "normal",
+            "fontWeight": 400
+          },
+          {
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          },
+          {
+            "fontStyle": "normal",
+            "fontWeight": 800
+          },
+          {
+            "fontStyle": "normal",
+            "fontWeight": 900
+          }
+        ]
+      },
+      "webSerifFont": {
+        "name": "Web Serif Font",
+        "family": "Lora",
+        "variants": [
+          {
+            "fontStyle": "normal",
+            "fontWeight": 400
+          },
+          {
+            "fontStyle": "italic",
+            "fontWeight": 400
+          },
+          {
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          },
+          {
+            "fontStyle": "italic",
+            "fontWeight": "bold"
+          }
+        ]
+      }
+    },
+    "typeStyles": {},
+    "logos": {
+      "travisStackedWithWolf": {
+        "displayName": "Travis Stacked With Wolf",
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-stacked-with-wolf-wBPeaSljPL.svg",
+        "fileName": "travis-stacked-with-wolf.svg"
+      },
+      "travisStackedCopper": {
+        "displayName": "Travis Stacked Copper",
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-stacked-copper-rLiWIUhMRb.svg",
+        "fileName": "travis-stacked-copper.svg"
+      },
+      "travisWolfCopperBadge": {
+        "displayName": "Travis Wolf Copper Badge",
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-wolf-copper-badge-IWOy6IgPfV.svg",
+        "fileName": "travis-wolf-copper-badge.svg"
+      },
+      "travisWolfBlackBadge": {
+        "displayName": "Travis Wolf Black Badge",
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-wolf-black-badge-DeYToAp9Cz.svg",
+        "fileName": "travis-wolf-black-badge.svg"
+      }
+    },
+    "images": {
+      "travisArmadaCustomerNotifications512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-armada-customer-notifications%40512x512-Sn3XIykeTF.png",
+        "fileName": "travis-armada-customer-notifications@512x512.png",
+        "displayName": "travis-armada-customer-notifications@512x512.png",
+        "extension": "png"
+      },
+      "travisEventIreRsvpBanner512X128Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-event-ire_rsvp-banner%40512x128-FUGIKWQKQJ.png",
+        "fileName": "travis-event-ire_rsvp-banner@512x128.png",
+        "displayName": "travis-event-ire_rsvp-banner@512x128.png",
+        "extension": "png"
+      },
+      "travisEventIreRsvpTitle512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-event-ire_rsvp-title%40512x512-eLqB5HnfkO.png",
+        "fileName": "travis-event-ire_rsvp-title@512x512.png",
+        "displayName": "travis-event-ire_rsvp-title@512x512.png",
+        "extension": "png"
+      },
+      "travisMarketingBuyLocal512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-marketing-buy-local%40512x512-9jpRy5f5is.png",
+        "fileName": "travis-marketing-buy-local@512x512.png",
+        "displayName": "travis-marketing-buy-local@512x512.png",
+        "extension": "png"
+      },
+      "travisMarketingSaveTimeMoneyHeadache513X217Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-marketing-save-time-money-headache%40513x217-wnP19H6rQK.png",
+        "fileName": "travis-marketing-save-time-money-headache@513x217.png",
+        "displayName": "travis-marketing-save-time-money-headache@513x217.png",
+        "extension": "png"
+      },
+      "travisMobileAddFavoritesPng": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-mobile-add-favorites-llu0YBSblk.png",
+        "fileName": "travis-mobile-add-favorites.png",
+        "displayName": "travis-mobile-add-favorites.png",
+        "extension": "png"
+      },
+      "travisMobileEmptyCartPng": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-mobile-empty-cart-a_uXD1cQoU.png",
+        "fileName": "travis-mobile-empty-cart.png",
+        "displayName": "travis-mobile-empty-cart.png",
+        "extension": "png"
+      },
+      "travisMobileHandsTransparent512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-mobile-hands-transparent%40512x512-oV-ZQ5w_hp.png",
+        "fileName": "travis-mobile-hands-transparent@512x512.png",
+        "displayName": "travis-mobile-hands-transparent@512x512.png",
+        "extension": "png"
+      },
+      "travisWebMissionTalk512X506Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-web-mission-talk%40512x506-yBFTUYrc5L.png",
+        "fileName": "travis-web-mission-talk@512x506.png",
+        "displayName": "travis-web-mission-talk@512x506.png",
+        "extension": "png"
+      },
+      "travisWebHeroLaptopAndDown959X315Jpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-web-hero-laptop-and-down%40959x315-n60ZFzl9sX.jpeg",
+        "fileName": "travis-web-hero-laptop-and-down@959x315.jpg",
+        "displayName": "travis-web-hero-laptop-and-down@959x315.jpg",
+        "extension": "jpeg"
+      },
+      "travisWebHeroLaptopAndUp1400X460Jpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-web-hero-laptop-and-up%401400x460-b1ZtIVfNMr.jpeg",
+        "fileName": "travis-web-hero-laptop-and-up@1400x460.jpg",
+        "displayName": "travis-web-hero-laptop-and-up@1400x460.jpg",
+        "extension": "jpeg"
+      },
+      "travisDownloadIconAndroidSvg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-download-icon-android-tMIN86Vzr8.svg",
+        "fileName": "travis-download-icon-android.svg",
+        "displayName": "travis-download-icon-android.svg",
+        "extension": "svg"
+      },
+      "travisDownloadIconIosSvg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-download-icon-ios-qCTGlC1giM.svg",
+        "fileName": "travis-download-icon-ios.svg",
+        "displayName": "travis-download-icon-ios.svg",
+        "extension": "svg"
+      },
+      "splashPng": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/splash-Lcu0u3U_hz.png",
+        "fileName": "splash.png",
+        "displayName": "splash.png",
+        "extension": "png"
+      },
+      "travisNoimageSvg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-noimage-lHFi0x7EPO.svg",
+        "fileName": "travis-noimage.svg",
+        "displayName": "travis-noimage.svg",
+        "extension": "svg"
+      },
+      "travisScholarshipFund512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-scholarship-fund-%40512x512-icLTUkc7fP.png",
+        "fileName": "travis-scholarship-fund-@512x512.png",
+        "displayName": "travis-scholarship-fund-@512x512.png",
+        "extension": "png"
+      },
+      "travisHqSupportTeam512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-hq-support-team%40512x512-niTf7ZbgSx.png",
+        "fileName": "travis-hq-support-team@512x512.png",
+        "displayName": "travis-hq-support-team@512x512.png",
+        "extension": "png"
+      },
+      "travisJobs512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-jobs%40512x512-QVGpKCH5d3.png",
+        "fileName": "travis-jobs@512x512.png",
+        "displayName": "travis-jobs@512x512.png",
+        "extension": "png"
+      },
+      "travisCreditLogo512X512Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-credit-logo%40512x512-UkVlyZyaRi.png",
+        "fileName": "travis-credit-logo@512x512.png",
+        "displayName": "travis-credit-logo@512x512.png",
+        "extension": "png"
+      },
+      "travisBranchMapMarkerSvg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-branch-map-marker-NZzmeer3xp.svg",
+        "fileName": "travis-branch-map-marker.svg",
+        "displayName": "travis-branch-map-marker.svg",
+        "extension": "svg"
+      },
+      "travisDeliveryMapMarkerSvg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-delivery-map-marker-Lua27urIRU.svg",
+        "fileName": "travis-delivery-map-marker.svg",
+        "displayName": "travis-delivery-map-marker.svg",
+        "extension": "svg"
+      },
+      "travisTruckMapMarkerSvg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-truck-map-marker-288SAwJhaW.svg",
+        "fileName": "travis-truck-map-marker.svg",
+        "displayName": "travis-truck-map-marker.svg",
+        "extension": "svg"
+      },
+      "travisRoofingSupplyOfAustinJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-austin-QwLu00Sa-w.jpeg",
+        "fileName": "travis-roofing-supply-of-austin.jpg",
+        "displayName": "travis-roofing-supply-of-austin.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfBoiseJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-boise-S0KC-udMm-.jpeg",
+        "fileName": "travis-roofing-supply-of-boise.jpg",
+        "displayName": "travis-roofing-supply-of-boise.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfClevelandJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-cleveland-qc7u_M5rub.jpeg",
+        "fileName": "travis-roofing-supply-of-cleveland.jpg",
+        "displayName": "travis-roofing-supply-of-cleveland.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfColumbusJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-columbus--qUBscbvGf.jpeg",
+        "fileName": "travis-roofing-supply-of-columbus.jpg",
+        "displayName": "travis-roofing-supply-of-columbus.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfEAtlantaJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-e-atlanta-9uQuGN2N_H.jpeg",
+        "fileName": "travis-roofing-supply-of-e-atlanta.jpg",
+        "displayName": "travis-roofing-supply-of-e-atlanta.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfFtWorthJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-ft-worth-NQZzTx1zm6.jpeg",
+        "fileName": "travis-roofing-supply-of-ft-worth.jpg",
+        "displayName": "travis-roofing-supply-of-ft-worth.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfHoustonJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-houston-9AaxFltMq-.jpeg",
+        "fileName": "travis-roofing-supply-of-houston.jpg",
+        "displayName": "travis-roofing-supply-of-houston.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfKennesawJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-kennesaw-X0iUYUZwSV.jpeg",
+        "fileName": "travis-roofing-supply-of-kennesaw.jpg",
+        "displayName": "travis-roofing-supply-of-kennesaw.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfLexingtonJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-lexington-golf8FHvV9.jpeg",
+        "fileName": "travis-roofing-supply-of-lexington.jpg",
+        "displayName": "travis-roofing-supply-of-lexington.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfLouisvilleJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-louisville-S2OdmuKf7l.jpeg",
+        "fileName": "travis-roofing-supply-of-louisville.jpg",
+        "displayName": "travis-roofing-supply-of-louisville.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfMemphisJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-memphis-ZzIQoiSLni.jpeg",
+        "fileName": "travis-roofing-supply-of-memphis.jpg",
+        "displayName": "travis-roofing-supply-of-memphis.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfNDallasJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-n-dallas-4eV7XSORgJ.jpeg",
+        "fileName": "travis-roofing-supply-of-n-dallas.jpg",
+        "displayName": "travis-roofing-supply-of-n-dallas.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfNewOrleansJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-new-orleans-Rf64QWuW3-.jpeg",
+        "fileName": "travis-roofing-supply-of-new-orleans.jpg",
+        "displayName": "travis-roofing-supply-of-new-orleans.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfNorfolkJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-norfolk--9yymCXrla.jpeg",
+        "fileName": "travis-roofing-supply-of-norfolk.jpg",
+        "displayName": "travis-roofing-supply-of-norfolk.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfOrlandoJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-orlando-etKSFDYwEj.jpeg",
+        "fileName": "travis-roofing-supply-of-orlando.jpg",
+        "displayName": "travis-roofing-supply-of-orlando.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfSaltLakeCityJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-salt-lake-city-QBfrteAGoLp.jpeg",
+        "fileName": "travis-roofing-supply-of-salt-lake-city.jpg",
+        "displayName": "travis-roofing-supply-of-salt-lake-city.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfSanAntonioJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-san-antonio-gyGgzDxTw7k.jpeg",
+        "fileName": "travis-roofing-supply-of-san-antonio.jpg",
+        "displayName": "travis-roofing-supply-of-san-antonio.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfStLouisJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-st-louis-LRYLDUVCRuD.jpeg",
+        "fileName": "travis-roofing-supply-of-st-louis.jpg",
+        "displayName": "travis-roofing-supply-of-st-louis.jpg",
+        "extension": "jpeg"
+      },
+      "travisRoofingSupplyOfTulsaJpg": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/travis-roofing-supply-of-tulsa-EgFGxCWC8ac.jpeg",
+        "fileName": "travis-roofing-supply-of-tulsa.jpg",
+        "displayName": "travis-roofing-supply-of-tulsa.jpg",
+        "extension": "jpeg"
+      },
+      "appleTouchIcon57X57Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-57x57-1d_cLE2u2y.png",
+        "fileName": "apple-touch-icon-57x57.png",
+        "displayName": "apple-touch-icon-57x57.png",
+        "extension": "png"
+      },
+      "appleTouchIcon60X60Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-60x60-BmjDKPB8iq.png",
+        "fileName": "apple-touch-icon-60x60.png",
+        "displayName": "apple-touch-icon-60x60.png",
+        "extension": "png"
+      },
+      "appleTouchIcon72X72Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-72x72-sGn_qUT9pV.png",
+        "fileName": "apple-touch-icon-72x72.png",
+        "displayName": "apple-touch-icon-72x72.png",
+        "extension": "png"
+      },
+      "appleTouchIcon76X76Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-76x76-QNVjKaLvpo.png",
+        "fileName": "apple-touch-icon-76x76.png",
+        "displayName": "apple-touch-icon-76x76.png",
+        "extension": "png"
+      },
+      "appleTouchIcon114X114Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-114x114-zmSLDh5NO9.png",
+        "fileName": "apple-touch-icon-114x114.png",
+        "displayName": "apple-touch-icon-114x114.png",
+        "extension": "png"
+      },
+      "appleTouchIcon120X120Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-120x120-7gfetdQh6l.png",
+        "fileName": "apple-touch-icon-120x120.png",
+        "displayName": "apple-touch-icon-120x120.png",
+        "extension": "png"
+      },
+      "appleTouchIcon144X144Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-144x144-K8sJFGrfKA.png",
+        "fileName": "apple-touch-icon-144x144.png",
+        "displayName": "apple-touch-icon-144x144.png",
+        "extension": "png"
+      },
+      "appleTouchIcon152X152Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/apple-touch-icon-152x152-6Wf2WfNvPg.png",
+        "fileName": "apple-touch-icon-152x152.png",
+        "displayName": "apple-touch-icon-152x152.png",
+        "extension": "png"
+      },
+      "favicon16X16Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/favicon-16x16-_BJRuJqQr2.png",
+        "fileName": "favicon-16x16.png",
+        "displayName": "favicon-16x16.png",
+        "extension": "png"
+      },
+      "favicon32X32Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/favicon-32x32-nFsqvH5w2z.png",
+        "fileName": "favicon-32x32.png",
+        "displayName": "favicon-32x32.png",
+        "extension": "png"
+      },
+      "favicon96X96Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/favicon-96x96-quPYuL-QTg.png",
+        "fileName": "favicon-96x96.png",
+        "displayName": "favicon-96x96.png",
+        "extension": "png"
+      },
+      "favicon128Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/favicon-128-nRJ2f_FOLJ.png",
+        "fileName": "favicon-128.png",
+        "displayName": "favicon-128.png",
+        "extension": "png"
+      },
+      "favicon196X196Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/favicon-196x196-7efKLe1diT.png",
+        "fileName": "favicon-196x196.png",
+        "displayName": "favicon-196x196.png",
+        "extension": "png"
+      },
+      "mstile70X70Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/mstile-70x70-mzrTmif6tU.png",
+        "fileName": "mstile-70x70.png",
+        "displayName": "mstile-70x70.png",
+        "extension": "png"
+      },
+      "mstile144X144Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/mstile-144x144-0VPkDglelo.png",
+        "fileName": "mstile-144x144.png",
+        "displayName": "mstile-144x144.png",
+        "extension": "png"
+      },
+      "mstile150X150Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/mstile-150x150-hEqNJPvvb_.png",
+        "fileName": "mstile-150x150.png",
+        "displayName": "mstile-150x150.png",
+        "extension": "png"
+      },
+      "mstile310X150Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/mstile-310x150-JwE8CbfHRm.png",
+        "fileName": "mstile-310x150.png",
+        "displayName": "mstile-310x150.png",
+        "extension": "png"
+      },
+      "mstile310X310Png": {
+        "url": "https://user-images.brand.ai/trssupply/travis-roofing-supply/mstile-310x310-pK-Dffccph.png",
+        "fileName": "mstile-310x310.png",
+        "displayName": "mstile-310x310.png",
+        "extension": "png"
+      }
+    },
+    "icons": {},
+    "measurements": {
+      "mobile": {
+        "name": "Mobile",
+        "unit": "px",
+        "value": 600
+      },
+      "tablet": {
+        "name": "Tablet",
+        "unit": "px",
+        "value": 960
+      },
+      "desktop": {
+        "name": "Desktop",
+        "unit": "px",
+        "value": 1264
+      },
+      "retina": {
+        "name": "Retina",
+        "unit": "px",
+        "value": 1904
+      }
+    },
+    "shadows": {}
+  }
+}
