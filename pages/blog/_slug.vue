@@ -10,9 +10,9 @@
             <ul class="list-unstyled xs-flex xs-flex-align-center">
              <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory"><div class="tag fill-gray-darker xs-border">
   <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
-</div></li> 
+</div></li>
 <li class="xs-inline-block">{{ date }}</li>
-              </ul> 
+              </ul>
              </div>
           </no-ssr>
           <div class="xs-py3 post-content text-gray-lighter">
@@ -29,18 +29,25 @@
 
 <script>
 import MdWrapper from "~/components/MdWrapper";
+import axios from 'axios';
 
 export default {
   async asyncData({ params, app, payload, route, store }) {
     let post = await import("~/content/blog/posts/" + params.slug + ".json");
-    console.log(post);
-   
-   await store.commit("SET_TITLE", post.title);
+    let apidata = '';
+    // We can use async/await ES6 feature
+    const { data } = await axios.get(`https://jsonplaceholder.typicode.com/posts/3`)
+
+    console.log({
+      apidata: data
+    });
+
+   await store.commit("SET_TITLE", data.title);
      await store.commit("SET_THUMB", post.thumbnail);
      await store.commit("SET_CRUMB", 'Blog');
    await   store.commit("SET_POSTCAT", post.category);
     await store.commit("paginateOff", false);
-    return post;
+    return data;
   },
    transition (to, from) {
     if (!from) { return 'slide-left' } else {return 'slide-right'}
@@ -50,7 +57,7 @@ export default {
       title: this.title + " | " + this.$store.state.siteInfo.sitename
     };
   },
-  
+
   data() {
     return {};
   },
